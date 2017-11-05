@@ -1,3 +1,51 @@
-/* #github-icon {
-    margin-left: 0;
-} */
+/* navbar */
+.navbar-default {
+  background-color: #4aaaa5;
+  border-color: #E7E7E7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5E5E5E;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #007f79;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #D5D5D5;
+}
+
+/* Mobile version */
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #CCC;
+}
+
+#logo {
+  font-size: 2em;
+}
+
+body a {
+  color: #b23d00;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+  color: #4aaaa5;
+}
