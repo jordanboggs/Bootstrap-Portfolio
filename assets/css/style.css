@@ -89,3 +89,8 @@ body h1, h2, h3, h4, h5, h6 {
   padding: 1vh 0 3vh 0;
   color: #fff;
 }
+
+#form-submit {
+  background-color: #4aaaa5;
+  color: #fff;
+}
