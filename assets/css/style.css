@@ -61,14 +61,14 @@ body h1, h2, h3, h4, h5, h6 {
   #contact {
     margin-bottom: 10vh;
   }
-  /* #contact h2 {
-    font-size: 1.4em;
-  } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .col-md-offset-1 {
     margin-top: 5vh;
+  }
+  #contact {
+    margin-bottom: 10vh;
   }
 }
 
@@ -76,6 +76,9 @@ body h1, h2, h3, h4, h5, h6 {
   .col-lg-offset-1 {
     margin-top: 2em;
     margin-left: 0;
+  }
+  .bottom-row {
+    margin-bottom: 5vh;
   }
 }
 
