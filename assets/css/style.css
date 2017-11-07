@@ -70,6 +70,9 @@ body h1, h2, h3, h4, h5, h6 {
   #contact {
     margin-bottom: 10vh;
   }
+  #contact-me {
+    font-size: 2em;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -83,14 +86,15 @@ body h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  height: 5vh;
-  background-color: #4aaaa5;
+  background-color: #666;
   position: fixed;
   bottom: 0;
   text-align: center;
   width: 100%;
-  padding: 1vh 0 3vh 0;
-  color: #fff;
+  padding: 3vh 0 3vh 0;
+  font-size: .8em;
+  color: #ccc;
+  border-top: 1.5vh solid #4aaaa5;
 }
 
 #form-submit {
